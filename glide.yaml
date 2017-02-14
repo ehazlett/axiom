@@ -1,0 +1,11 @@
+package: github.com/ehazlett/axiom
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/docker/docker
+  subpackages:
+  - api/types
+  - api/types/filters
+  - client
+- package: github.com/gorilla/context
+- package: github.com/gorilla/mux
+- package: github.com/sirupsen/logrus

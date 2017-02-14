@@ -1,0 +1,3 @@
+*.swp
+build/*
+cmd/axiom/axiom
